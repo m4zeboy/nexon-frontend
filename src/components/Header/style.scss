@@ -1,0 +1,24 @@
+.app-header {
+  background-color: #222;
+  padding: 2rem;
+  border-bottom: 1px solid #333;
+  div>div {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+  ul {
+    display: flex;
+    gap: 2rem;
+
+    li>a {
+      color: #eee;
+      transition: ease-in-out .1s;
+      &:hover {
+        opacity: .7;
+      }
+    }
+  }
+}
+

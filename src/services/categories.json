@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "text": {
+      "highlight": "WORLD CUP 2022",
+      "title": "Seleções",
+      "description": "Os melhores do mundo."
+    },
+    "theme": "dark",
+    "image": "https://i.pinimg.com/originals/45/67/bd/4567bd7597bda2b347f3744d555e20c4.jpg"
+  },
+  {
+    "id": 2,
+    "text": {
+      "title": "Europeus",
+      "description": "Os campeões se encontram aqui.",
+      "availability": "Confira em breve os lançamentos!"
+    },
+    "theme": "dark",
+    "image": "https://i.pinimg.com/originals/ff/e4/01/ffe40122ffd28452a216e6fc2e9d4275.jpg"
+  }
+  
+]

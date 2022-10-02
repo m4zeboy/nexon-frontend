@@ -1,0 +1,37 @@
+.product {
+  border-radius: 8px;
+  border: 1px solid #444;
+  overflow: hidden;
+  min-width: 400px;
+  img {
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .info {
+    background-color: #333;
+    padding: 1rem;
+    width: 100%;
+    color: #eee;
+    .product-category {
+      font-size: 1.2rem;
+    }
+
+    strong {
+      width: 24ch;
+    }
+
+    .price {
+      display: flex;
+      gap: 2rem;
+
+      .old-price {
+        opacity: .5;
+        text-decoration: line-through;
+      }
+      .actual-price {
+        color: #00f777;
+      }
+    }
+  }
+}

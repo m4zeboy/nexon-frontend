@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "text": {
+      "highlight": "PROMOÇÃO",
+      "title": "Compre 2 leve 3",
+      "description": "Escolha dois mantos e leve um de graça."
+    },
+    "theme": "dark",
+    "image": ""
+  },
+  {
+    "id": 2,
+    "text": {
+      "highlight": "WORLD CUP 2022",
+      "title": "Seleções",
+      "description": "Vista-se com o manto da seleção."
+    },
+    "theme": "dark",
+    "image": "https://i.pinimg.com/originals/f5/39/89/f53989ab6643301b68cc5a773e31649b.jpg"
+  }
+  
+]

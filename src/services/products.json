@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "category": "Europeus",
+    "description": "Camiseta Nike PSG Crest Masculina",
+    "price": {
+      "old": 199.99,
+      "actual": 129.99
+    },
+    "theme": "dark",
+    "image": "https://imgnike-a.akamaihd.net/1300x1300/02184615.jpg",
+    "availability": true
+  },
+  {
+    "id": 1,
+    "category": "NACIONAIS",
+    "description": "Camisa Nike Corinthians II 2022/23 Torcedor Pro Masculina",
+    "price": {
+      "old": 349.99,
+      "actual": 149.99
+    },
+    "theme": "dark",
+    "image": "https://imgnike-a.akamaihd.net/1300x1300/0219217T.jpg",
+    "availability": true
+  },
+  {
+    "id": 1,
+    "category": "SELEÇÕES",
+    "description": "Camiseta Nike Brasil Pré-Jogo Infantil",
+    "price": {
+      "old": 399.99,
+      "actual": 169.99
+    },
+    "theme": "dark",
+    "image": "https://imgnike-a.akamaihd.net/1300x1300/02283515.jpg",
+    "availability": false
+  }
+  
+]
