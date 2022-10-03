@@ -1,7 +1,8 @@
 .home-page {
   padding: 2rem;
   .category-banners {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 2rem;
   }
 }
@@ -9,7 +10,7 @@
   .home-page {
     padding: 2rem;
     .category-banners {
-      flex-direction: column;
+      grid-template-columns: 1fr;
     }
   }
 }

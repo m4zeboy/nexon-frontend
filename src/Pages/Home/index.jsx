@@ -8,6 +8,7 @@ export function HomePage() {
   
   return (
     <div className='home-page'>
+      <Container>
       <div className="category-banners">
       {
           categories.map(category => {
@@ -16,8 +17,9 @@ export function HomePage() {
             )
           })
         }
+        
       </div>
-       
+      </Container>
         {/* <img src="https://i.pinimg.com/originals/4e/bf/f0/4ebff08fc528b95500ce143551ed00a9.jpg" alt="" width="100%"/> */}
         {/* <ProductList name="Highlights"Products={products} type="product-carrousel"/> */}
     </div>
