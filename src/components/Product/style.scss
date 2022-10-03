@@ -3,6 +3,8 @@
   border: 1px solid #444;
   overflow: hidden;
   min-width: 400px;
+  display: flex;
+  flex-direction: column;
   img {
     object-fit: cover;
     width: 100%;
@@ -13,6 +15,9 @@
     padding: 1rem;
     width: 100%;
     color: #eee;
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
     .product-category {
       font-size: 1.2rem;
     }

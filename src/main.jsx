@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import App from './App.jsx';
 import { CategoryPage } from './Pages/CategoryPage/index.jsx';
+import { HomePage } from './Pages/Home/index.jsx';
 import './styles/global.scss';
 
 const router = createBrowserRouter([
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
       {
         path: "category/:categoryId",
         element: <CategoryPage/>
+      },
+      {
+        path: "/",
+        element: <HomePage/>
       }
     ]
   },

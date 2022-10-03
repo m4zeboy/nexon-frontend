@@ -1,0 +1,15 @@
+.home-page {
+  padding: 2rem;
+  .category-banners {
+    display: flex;
+    gap: 2rem;
+  }
+}
+@media (max-width: 1024px) {
+  .home-page {
+    padding: 2rem;
+    .category-banners {
+      flex-direction: column;
+    }
+  }
+}

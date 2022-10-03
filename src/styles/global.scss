@@ -16,6 +16,15 @@ body {
   color: #eee;
 }
 
+section {
+  padding: 4rem 0;
+  h3 {
+    margin-bottom: 2rem;
+    opacity: .6;
+    text-transform: uppercase;
+  }
+}
+
 h1 {
   font-size: 4rem;
   margin-bottom: 2rem;

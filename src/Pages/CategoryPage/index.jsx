@@ -5,7 +5,7 @@ import './style.scss'
 export function CategoryPage() {
   
   return (
-    <div>
+    <div className='category-page'>
       <Container>
         <h1>Category Page</h1>
 

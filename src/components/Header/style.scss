@@ -1,3 +1,11 @@
+li>a {
+  color: #eee;
+  transition: ease-in-out .1s;
+  &:hover {
+    opacity: .7;
+  }
+}
+
 .app-header {
   background-color: #222;
   padding: 2rem;
@@ -11,14 +19,31 @@
   ul {
     display: flex;
     gap: 2rem;
-
-    li>a {
-      color: #eee;
-      transition: ease-in-out .1s;
-      &:hover {
-        opacity: .7;
-      }
-    }
   }
 }
 
+.drop-down {
+  padding: 2rem;
+  -webkit-animation-duration: 10s;
+  animation-duration: 300ms;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  border-bottom: 1px solid #333;
+
+  li {
+    padding: 1rem 0 ;
+    a {
+      color: #eee;
+    }
+  }
+  ul>li:not(:last-child) {
+    border-bottom: 1px solid #444;
+  }
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+} 

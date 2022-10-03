@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './style.scss'
 
 export function CategoryBanner({ image, text }) {
@@ -14,9 +15,9 @@ export function CategoryBanner({ image, text }) {
         <h1>{text.title}</h1>
         <p>{text.description}</p>
         <p className="details">{text.availability}</p>
-        <a href="#" className="link-blue">
+        <Link to="#" className="link-purple">
           Ver Mais &gt;
-        </a>
+        </Link>
       </div>
     </div>
   )

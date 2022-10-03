@@ -15,9 +15,16 @@ import './style.scss'
 
 export function Header() {
   const categories = ['Europeus', 'Seleções', 'NBA', 'Linha Casual']
-  const [dropDown, setDropDown] = useState(false)
+  const [modal, setModal] = useState(false)
+ 
+  const renderCategories = categories.map((category, index) => {
+    return (
+      <li key={index}>
+        <Link to={"/category/" + index}>{category}</Link>
+      </li>
+    )
+  })
 
-  const dropDownEl = <div className="drop-down"></div>
   return (
     <>
     <header className="app-header">
@@ -27,7 +34,7 @@ export function Header() {
             <img src={logo} alt="" />
           </Link>
           <SearchBar theme="dark" />
-          <Link to="#">
+          <Link to="#" onClick={() => setModal(!modal)}>
             <HiMenuAlt4 size={24} color="#eee" />
           </Link>
           <Link to="#">
@@ -40,20 +47,11 @@ export function Header() {
           <Link to="/" className="logo">
             <img src={logo} alt="" />
           </Link>
-          <ul>
-            {categories.map((category, index) => {
-              return (
-                <li key={index}>
-                  <Link to={"/category/" + index}>{category}</Link>
-                </li>
-              )
-            })}
-          </ul>
+          <ul>{renderCategories}</ul>
           <Link to="#">
             <IoBagOutline size={24} color="#eee" />
           </Link>
         </Container>
-        {dropDown && dropDownEl}
       </Desktop>
     </header>
     <Desktop>
@@ -62,7 +60,16 @@ export function Header() {
             <SearchBar theme="dark"></SearchBar>
           </Container>
         </Breadcrumbs> 
-      </Desktop>
+    </Desktop>
+    <Mobile>
+      {modal && (
+        <div className='drop-down'>
+          <Container>
+            <ul>{renderCategories}</ul>
+          </Container>
+        </div>
+      )}
+    </Mobile>        
     </>
   )
 }
