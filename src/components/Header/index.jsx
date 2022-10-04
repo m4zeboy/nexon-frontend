@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import { SearchBar } from '../SearchBar'
 import { Container } from '../Container'
-
+import categories from '../../services/categories.json'
 import logo from '../../assets/logo.svg'
 import { IoBagOutline } from 'react-icons/io5'
 import { HiMenuAlt4 } from 'react-icons/hi'
@@ -14,13 +14,12 @@ import { Breadcrumbs } from '../Breadcrumbs';
 import './style.scss'
 
 export function Header() {
-  const categories = ['Europeus', 'Seleções', 'NBA', 'Linha Casual']
   const [modal, setModal] = useState(false)
  
-  const renderCategories = categories.map((category, index) => {
+  const renderCategories = categories.map((category) => {
     return (
-      <li key={index}>
-        <Link to={"/category/" + index}>{category}</Link>
+      <li key={category.id}>
+        <Link to={"/category/" + category.id}>{category.title}</Link>
       </li>
     )
   })

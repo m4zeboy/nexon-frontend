@@ -1,0 +1,43 @@
+[
+  {
+    "id": 0,
+    "text": {
+      "highlight": "WORLD CUP 2022",
+      "title": "Seleções",
+      "description": "Os melhores do mundo."
+    },
+    "theme": "dark",
+    "image": "https://i.pinimg.com/originals/45/67/bd/4567bd7597bda2b347f3744d555e20c4.jpg"
+  },
+  {
+    "id": 1,
+    "text": {
+      "title": "Europeus",
+      "description": "Os campeões se encontram aqui.",
+      "availability": "Confira em breve os lançamentos!"
+    },
+    "theme": "dark",
+    "image": "https://i.pinimg.com/originals/ff/e4/01/ffe40122ffd28452a216e6fc2e9d4275.jpg"
+  },
+  {
+    "id": 2,
+    "text": {
+      "title": "Linha Casual",
+      "description": "Conforto e Estilo lado a lado.",
+      "availability": "Confira em breve os lançamentos!"
+    },
+    "theme": "dark",
+    "image": "https://i.pinimg.com/originals/2e/b4/4e/2eb44efc4580fa10d85e48fb26e322b8.jpg"
+  },
+  {
+    "id": 3,
+    "text": {
+      "title": "NBA",
+      "description": "É por isso que jogamos.",
+      "availability": "Confira em breve os lançamentos!"
+    },
+    "theme": "dark",
+    "image": "https://i.pinimg.com/originals/72/ba/e5/72bae5654f30f35fe99beaf2b90f9d69.jpg"
+  }
+  
+]

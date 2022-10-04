@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import {Container} from '../../components/Container'
 import {CategoryBanner} from '../../components/CategoryBanner'
-import categories from '../../services/categories.json'
+import categoriesBanners from '../../services/categoriesBanners.json'
 import './style.scss'
 
 export function HomePage() {
@@ -11,7 +11,7 @@ export function HomePage() {
       <Container>
       <div className="category-banners">
       {
-          categories.map(category => {
+          categoriesBanners.map(category => {
             return (
                 <CategoryBanner text={category.text} image={category.image}/>
             )
